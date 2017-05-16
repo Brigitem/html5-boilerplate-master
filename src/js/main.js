@@ -20,7 +20,24 @@ $(window).resize(function() {
 	console.log('resize');
 });
 
+// var height = 400;
+// var counter = 0;
+
 $(window).scroll(function() {
+	// var scrollAmount = $(window).scrollTop();
+
+	// if (scrollAmount > headerHeight) {
+	// 	console.log('fire event')
+	// 	counter++;
+	// 	$('button').css({
+	// 		'position': 'absolute',
+	// 		'margin-top': counter
+	// 	})
+	// 	console.log(counter)
+	// }
+	// console.log('scroll');
+	// height = height - 5;
+	// $('.square').height(height);
 	// var scrollAmount = $(window).scrollTop();
 	// if (scrollAmount > headerHeight) {
 	// 	$('nav').css({
